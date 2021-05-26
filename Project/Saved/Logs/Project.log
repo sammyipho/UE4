@@ -1069,3 +1069,30 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.26-09.14.13:893][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
 [2021.05.26-09.14.13:894][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2021.05.26-09.14.18:228][328]LogRenderer: Reallocating scene render targets to support 1616x524 Format 10 NumSamples 1 (Frame:287).
+[2021.05.26-09.26.47:576][130]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2021.05.26-09.26.47:584][130]LogContentBrowser: Creating deferred item: NewMaterial
+[2021.05.26-09.26.48:401][220]LogContentBrowser: Attempting asset rename: NewMaterial -> NewMaterial
+[2021.05.26-09.26.48:402][220]LogContentBrowser: End creating deferred item NewMaterial
+[2021.05.26-09.26.57:988][242]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.26-09.26.58:010][242]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/NewMaterial.NewMaterial
+[2021.05.26-09.26.58:011][242]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.05.26-09.26.58:306][242]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2021.05.26-09.26.58:318][242]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.05.26-09.26.58:319][242]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.05.26-09.26.58:319][242]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.05.26-09.26.58:319][242]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.05.26-09.26.58:342][242]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.26-09.26.59:178][299]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.05.26-09.26.59:576][325]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2021.05.26-09.26.59:692][336]LogMaterialEditor: Saving and Compiling material NewMaterial
+[2021.05.26-09.26.59:706][336]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.05.26-09.26.59:726][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMaterial" FILE="../../../../../projects/UE/Ue4/Project/Content/NewMaterial.uasset" SILENT=true
+[2021.05.26-09.26.59:734][336]LogSavePackage: Moving '../../../../../projects/UE/Ue4/Project/Saved/NewMaterialFD83D1BB492EC653BBE4D085997E8D08.tmp' to '../../../../../projects/UE/Ue4/Project/Content/NewMaterial.uasset'
+[2021.05.26-09.26.59:761][336]AssetCheck: New page: Asset Save: NewMaterial
+[2021.05.26-09.26.59:762][336]LogContentValidation: Display: Validating Material /Game/NewMaterial.NewMaterial
+[2021.05.26-09.26.59:860][341]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.05.26-09.27.00:460][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.26-09.27.00:870][419]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.05.26-09.27.00:870][419]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.05.26-09.27.00:870][419]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2021.05.26-09.27.00:870][419]MaterialEditorStats: Texture samplers: 2/16
